@@ -1,6 +1,6 @@
 $(document).ready(function() {
-  const apiRoot = 'https://sheltered-brushlands-80333.herokuapp.com/v1/task';//http://localhost:8080/v1/task
-  const trelloApiRoot = 'https://sheltered-brushlands-80333.herokuapp.com/v1/trello';//'http://localhost:8080/v1/trello/';
+  const apiRoot = 'http://sheltered-brushlands-80333.herokuapp.com/v1/task';//http://localhost:8080/v1/task
+  const trelloApiRoot = 'http://sheltered-brushlands-80333.herokuapp.com/v1/trello';//'http://localhost:8080/v1/trello/';
   const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
   const $tasksContainer = $('[data-tasks-container]');
 
